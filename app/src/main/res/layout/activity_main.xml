@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.02" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hachana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hachana"/>
+
+            <TextView
+                android:id="@+id/korbanos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/korbanos" />
+
+            <TextView
+                android:id="@+id/psukei_dezimra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/psukei_dezimra"/>
+
+            <TextView
+                android:id="@+id/karbanos2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/korbanos2" />
+
+            <TextView
+                android:id="@+id/ashrei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ashrei"/>
+
+            <TextView
+                android:id="@+id/shirat_hayam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shirat_hayam"/>
+
+            <TextView
+                android:id="@+id/yishtabach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yishtabach"/>
+
+            <TextView
+                android:id="@+id/shema"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shema"/>
+
+            <TextView
+                android:id="@+id/shmona_esrei_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shmona_esrei_1"/>
+
+            <TextView
+                android:id="@+id/asseret_yami_tshuva_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/asseret_yami_teshuva_1"/>
+
+            <TextView
+                android:id="@+id/shmona_esrei_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shmona_esrei_2"/>
+
+            <TextView
+                android:id="@+id/mashiv_harauch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mashiv_harauch"/>
+
+            <TextView
+                android:id="@+id/morid_hatal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/morid_hatal"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.98" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
